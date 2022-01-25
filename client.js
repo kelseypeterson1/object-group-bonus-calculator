@@ -1,3 +1,19 @@
+$(document).ready(readyNow);
+
+function readyNow(){
+  $("#atticus").on("click", showEmployeeAtticus);
+  // $("#jem").on("click", showEmployeeJem);
+  // $("#scout").on("click", showEmployeeScout);
+  // $("#robert").on("click", showEmployeeRobert);
+  // $("#mayella").on("click", showEmployeeMayella);
+
+}
+function showEmployeeAtticus(){
+
+  employeeList.append(("<li>") + officialEmployeeArray[0].name + ("</li>")
+};
+
+
 const employees = [
   {
     name: 'Atticus',
