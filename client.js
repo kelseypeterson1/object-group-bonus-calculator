@@ -119,6 +119,7 @@ function calculatingTotalCompensation(employeeIn){
 }
 
 calculatingTotalCompensation(employees);
+console.log('Added total compensation and bonus percentage properties' , employees)
 
 // creates object instances for new employee array
 function Employee(name, bonusPercentage, totalCompensation, totalBonus,) {
@@ -138,6 +139,7 @@ function newEmployeeArray(employeeIn) {
 }
 
 newEmployeeArray(employees);
+console.log('Created new object containing previous select properties and pushed them into a new Array', officialEmployeeArray);
+//Log to test newly updated Array
 
-console.log(officialEmployeeArray);
 
